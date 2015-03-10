@@ -844,6 +844,8 @@ defmodule Module do
   @doc """
   Splits the given module name into binary parts.
 
+  Accepts any valid Elixir module name as string or atom.
+
   ## Examples
 
       Module.split Very.Long.Module.Name.And.Even.Longer
